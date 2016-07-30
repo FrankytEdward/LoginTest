@@ -11,10 +11,6 @@
 		131003201D4B4BC1004B125F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1310031F1D4B4BC1004B125F /* AppDelegate.m */; };
 		131003281D4B4BC1004B125F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131003271D4B4BC1004B125F /* Assets.xcassets */; };
 		1310032B1D4B4BC1004B125F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131003291D4B4BC1004B125F /* LaunchScreen.storyboard */; };
-		131003361D4B4C96004B125F /* TPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131003341D4B4C96004B125F /* TPLoginViewController.m */; };
-		131003371D4B4C96004B125F /* TPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 131003351D4B4C96004B125F /* TPLoginViewController.xib */; };
-		1349B3E21D4B55CC00DA46AA /* TPRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3E01D4B55CC00DA46AA /* TPRegisterViewController.m */; };
-		1349B3E31D4B55CC00DA46AA /* TPRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B3E11D4B55CC00DA46AA /* TPRegisterViewController.xib */; };
 		1349B3F21D4B5A0200DA46AA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3E71D4B5A0200DA46AA /* FMDatabase.m */; };
 		1349B3F31D4B5A0200DA46AA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3E91D4B5A0200DA46AA /* FMDatabaseAdditions.m */; };
 		1349B3F41D4B5A0200DA46AA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3EB1D4B5A0200DA46AA /* FMDatabasePool.m */; };
@@ -22,14 +18,18 @@
 		1349B3F61D4B5A0200DA46AA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3F01D4B5A0200DA46AA /* FMResultSet.m */; };
 		1349B3F71D4B5A0200DA46AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1349B3F11D4B5A0200DA46AA /* Info.plist */; };
 		1349B3F91D4B928300DA46AA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349B3F81D4B928300DA46AA /* libsqlite3.tbd */; };
-		1349B3FE1D4B961F00DA46AA /* TPDataBaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3FD1D4B961F00DA46AA /* TPDataBaseHelper.m */; };
-		1349B4011D4B99FF00DA46AA /* TPUserinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4001D4B99FF00DA46AA /* TPUserinfo.m */; };
-		1349B4051D4C401200DA46AA /* TPFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4031D4C401200DA46AA /* TPFindPasswordViewController.m */; };
-		1349B4061D4C401200DA46AA /* TPFindPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4041D4C401200DA46AA /* TPFindPasswordViewController.xib */; };
-		1349B40A1D4C408900DA46AA /* TPPassedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4081D4C408900DA46AA /* TPPassedViewController.m */; };
-		1349B40B1D4C408900DA46AA /* TPPassedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4091D4C408900DA46AA /* TPPassedViewController.xib */; };
-		1349B40F1D4C4B8400DA46AA /* TPChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B40D1D4C4B8400DA46AA /* TPChangePasswordViewController.m */; };
-		1349B4101D4C4B8400DA46AA /* TPChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B40E1D4C4B8400DA46AA /* TPChangePasswordViewController.xib */; };
+		1349B4AD1D4CD86F00DA46AA /* TPChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4981D4CD86F00DA46AA /* TPChangePasswordViewController.m */; };
+		1349B4AE1D4CD86F00DA46AA /* TPFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B49A1D4CD86F00DA46AA /* TPFindPasswordViewController.m */; };
+		1349B4AF1D4CD86F00DA46AA /* TPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B49C1D4CD86F00DA46AA /* TPLoginViewController.m */; };
+		1349B4B01D4CD86F00DA46AA /* TPPassedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B49E1D4CD86F00DA46AA /* TPPassedViewController.m */; };
+		1349B4B11D4CD86F00DA46AA /* TPRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4A01D4CD86F00DA46AA /* TPRegisterViewController.m */; };
+		1349B4B21D4CD86F00DA46AA /* TPDataBaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4A31D4CD86F00DA46AA /* TPDataBaseHelper.m */; };
+		1349B4B31D4CD86F00DA46AA /* TPUserinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4A61D4CD86F00DA46AA /* TPUserinfo.m */; };
+		1349B4B41D4CD86F00DA46AA /* TPChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4A81D4CD86F00DA46AA /* TPChangePasswordViewController.xib */; };
+		1349B4B51D4CD86F00DA46AA /* TPFindPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4A91D4CD86F00DA46AA /* TPFindPasswordViewController.xib */; };
+		1349B4B61D4CD86F00DA46AA /* TPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4AA1D4CD86F00DA46AA /* TPLoginViewController.xib */; };
+		1349B4B71D4CD86F00DA46AA /* TPPassedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4AB1D4CD86F00DA46AA /* TPPassedViewController.xib */; };
+		1349B4B81D4CD86F00DA46AA /* TPRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4AC1D4CD86F00DA46AA /* TPRegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,12 +40,6 @@
 		131003271D4B4BC1004B125F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1310032A1D4B4BC1004B125F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1310032C1D4B4BC1004B125F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		131003331D4B4C96004B125F /* TPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLoginViewController.h; sourceTree = "<group>"; };
-		131003341D4B4C96004B125F /* TPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLoginViewController.m; sourceTree = "<group>"; };
-		131003351D4B4C96004B125F /* TPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPLoginViewController.xib; sourceTree = "<group>"; };
-		1349B3DF1D4B55CC00DA46AA /* TPRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRegisterViewController.h; sourceTree = "<group>"; };
-		1349B3E01D4B55CC00DA46AA /* TPRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegisterViewController.m; sourceTree = "<group>"; };
-		1349B3E11D4B55CC00DA46AA /* TPRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPRegisterViewController.xib; sourceTree = "<group>"; };
 		1349B3E61D4B5A0200DA46AA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		1349B3E71D4B5A0200DA46AA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		1349B3E81D4B5A0200DA46AA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -59,19 +53,25 @@
 		1349B3F01D4B5A0200DA46AA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		1349B3F11D4B5A0200DA46AA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1349B3F81D4B928300DA46AA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1349B3FC1D4B961F00DA46AA /* TPDataBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDataBaseHelper.h; sourceTree = "<group>"; };
-		1349B3FD1D4B961F00DA46AA /* TPDataBaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDataBaseHelper.m; sourceTree = "<group>"; };
-		1349B3FF1D4B99FF00DA46AA /* TPUserinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPUserinfo.h; sourceTree = "<group>"; };
-		1349B4001D4B99FF00DA46AA /* TPUserinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPUserinfo.m; sourceTree = "<group>"; };
-		1349B4021D4C401200DA46AA /* TPFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFindPasswordViewController.h; sourceTree = "<group>"; };
-		1349B4031D4C401200DA46AA /* TPFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFindPasswordViewController.m; sourceTree = "<group>"; };
-		1349B4041D4C401200DA46AA /* TPFindPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPFindPasswordViewController.xib; sourceTree = "<group>"; };
-		1349B4071D4C408900DA46AA /* TPPassedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPassedViewController.h; sourceTree = "<group>"; };
-		1349B4081D4C408900DA46AA /* TPPassedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPassedViewController.m; sourceTree = "<group>"; };
-		1349B4091D4C408900DA46AA /* TPPassedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPPassedViewController.xib; sourceTree = "<group>"; };
-		1349B40C1D4C4B8400DA46AA /* TPChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPChangePasswordViewController.h; sourceTree = "<group>"; };
-		1349B40D1D4C4B8400DA46AA /* TPChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPChangePasswordViewController.m; sourceTree = "<group>"; };
-		1349B40E1D4C4B8400DA46AA /* TPChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPChangePasswordViewController.xib; sourceTree = "<group>"; };
+		1349B4971D4CD86F00DA46AA /* TPChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPChangePasswordViewController.h; sourceTree = "<group>"; };
+		1349B4981D4CD86F00DA46AA /* TPChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPChangePasswordViewController.m; sourceTree = "<group>"; };
+		1349B4991D4CD86F00DA46AA /* TPFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFindPasswordViewController.h; sourceTree = "<group>"; };
+		1349B49A1D4CD86F00DA46AA /* TPFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFindPasswordViewController.m; sourceTree = "<group>"; };
+		1349B49B1D4CD86F00DA46AA /* TPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLoginViewController.h; sourceTree = "<group>"; };
+		1349B49C1D4CD86F00DA46AA /* TPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLoginViewController.m; sourceTree = "<group>"; };
+		1349B49D1D4CD86F00DA46AA /* TPPassedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPassedViewController.h; sourceTree = "<group>"; };
+		1349B49E1D4CD86F00DA46AA /* TPPassedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPassedViewController.m; sourceTree = "<group>"; };
+		1349B49F1D4CD86F00DA46AA /* TPRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRegisterViewController.h; sourceTree = "<group>"; };
+		1349B4A01D4CD86F00DA46AA /* TPRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegisterViewController.m; sourceTree = "<group>"; };
+		1349B4A21D4CD86F00DA46AA /* TPDataBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDataBaseHelper.h; sourceTree = "<group>"; };
+		1349B4A31D4CD86F00DA46AA /* TPDataBaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDataBaseHelper.m; sourceTree = "<group>"; };
+		1349B4A51D4CD86F00DA46AA /* TPUserinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPUserinfo.h; sourceTree = "<group>"; };
+		1349B4A61D4CD86F00DA46AA /* TPUserinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPUserinfo.m; sourceTree = "<group>"; };
+		1349B4A81D4CD86F00DA46AA /* TPChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPChangePasswordViewController.xib; sourceTree = "<group>"; };
+		1349B4A91D4CD86F00DA46AA /* TPFindPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPFindPasswordViewController.xib; sourceTree = "<group>"; };
+		1349B4AA1D4CD86F00DA46AA /* TPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPLoginViewController.xib; sourceTree = "<group>"; };
+		1349B4AB1D4CD86F00DA46AA /* TPPassedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPPassedViewController.xib; sourceTree = "<group>"; };
+		1349B4AC1D4CD86F00DA46AA /* TPRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPRegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +105,12 @@
 		1310031A1D4B4BC1004B125F /* LoginTest */ = {
 			isa = PBXGroup;
 			children = (
-				1349B3FB1D4B95FB00DA46AA /* Helper */,
+				1349B4961D4CD86F00DA46AA /* Controller */,
+				1349B4A11D4CD86F00DA46AA /* Helper */,
+				1349B4A41D4CD86F00DA46AA /* Model */,
+				1349B4A71D4CD86F00DA46AA /* View */,
 				1349B3FA1D4B931D00DA46AA /* Frameworks */,
 				1349B3E51D4B5A0200DA46AA /* fmdb */,
-				131003391D4B4D6B004B125F /* Model */,
-				131003381D4B4CA7004B125F /* View */,
-				131003321D4B4C6B004B125F /* Controller */,
 				1310031E1D4B4BC1004B125F /* AppDelegate.h */,
 				1310031F1D4B4BC1004B125F /* AppDelegate.m */,
 				131003271D4B4BC1004B125F /* Assets.xcassets */,
@@ -127,44 +127,6 @@
 				1310031C1D4B4BC1004B125F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		131003321D4B4C6B004B125F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				131003331D4B4C96004B125F /* TPLoginViewController.h */,
-				131003341D4B4C96004B125F /* TPLoginViewController.m */,
-				1349B3DF1D4B55CC00DA46AA /* TPRegisterViewController.h */,
-				1349B3E01D4B55CC00DA46AA /* TPRegisterViewController.m */,
-				1349B4021D4C401200DA46AA /* TPFindPasswordViewController.h */,
-				1349B4031D4C401200DA46AA /* TPFindPasswordViewController.m */,
-				1349B4071D4C408900DA46AA /* TPPassedViewController.h */,
-				1349B4081D4C408900DA46AA /* TPPassedViewController.m */,
-				1349B40C1D4C4B8400DA46AA /* TPChangePasswordViewController.h */,
-				1349B40D1D4C4B8400DA46AA /* TPChangePasswordViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		131003381D4B4CA7004B125F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				131003351D4B4C96004B125F /* TPLoginViewController.xib */,
-				1349B3E11D4B55CC00DA46AA /* TPRegisterViewController.xib */,
-				1349B4041D4C401200DA46AA /* TPFindPasswordViewController.xib */,
-				1349B4091D4C408900DA46AA /* TPPassedViewController.xib */,
-				1349B40E1D4C4B8400DA46AA /* TPChangePasswordViewController.xib */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		131003391D4B4D6B004B125F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1349B3FF1D4B99FF00DA46AA /* TPUserinfo.h */,
-				1349B4001D4B99FF00DA46AA /* TPUserinfo.m */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		1349B3E51D4B5A0200DA46AA /* fmdb */ = {
@@ -194,13 +156,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1349B3FB1D4B95FB00DA46AA /* Helper */ = {
+		1349B4961D4CD86F00DA46AA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1349B3FC1D4B961F00DA46AA /* TPDataBaseHelper.h */,
-				1349B3FD1D4B961F00DA46AA /* TPDataBaseHelper.m */,
+				1349B4971D4CD86F00DA46AA /* TPChangePasswordViewController.h */,
+				1349B4981D4CD86F00DA46AA /* TPChangePasswordViewController.m */,
+				1349B4991D4CD86F00DA46AA /* TPFindPasswordViewController.h */,
+				1349B49A1D4CD86F00DA46AA /* TPFindPasswordViewController.m */,
+				1349B49B1D4CD86F00DA46AA /* TPLoginViewController.h */,
+				1349B49C1D4CD86F00DA46AA /* TPLoginViewController.m */,
+				1349B49D1D4CD86F00DA46AA /* TPPassedViewController.h */,
+				1349B49E1D4CD86F00DA46AA /* TPPassedViewController.m */,
+				1349B49F1D4CD86F00DA46AA /* TPRegisterViewController.h */,
+				1349B4A01D4CD86F00DA46AA /* TPRegisterViewController.m */,
 			);
-			name = Helper;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1349B4A11D4CD86F00DA46AA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1349B4A21D4CD86F00DA46AA /* TPDataBaseHelper.h */,
+				1349B4A31D4CD86F00DA46AA /* TPDataBaseHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1349B4A41D4CD86F00DA46AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1349B4A51D4CD86F00DA46AA /* TPUserinfo.h */,
+				1349B4A61D4CD86F00DA46AA /* TPUserinfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1349B4A71D4CD86F00DA46AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1349B4A81D4CD86F00DA46AA /* TPChangePasswordViewController.xib */,
+				1349B4A91D4CD86F00DA46AA /* TPFindPasswordViewController.xib */,
+				1349B4AA1D4CD86F00DA46AA /* TPLoginViewController.xib */,
+				1349B4AB1D4CD86F00DA46AA /* TPPassedViewController.xib */,
+				1349B4AC1D4CD86F00DA46AA /* TPRegisterViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,14 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131003371D4B4C96004B125F /* TPLoginViewController.xib in Resources */,
-				1349B3E31D4B55CC00DA46AA /* TPRegisterViewController.xib in Resources */,
-				1349B4061D4C401200DA46AA /* TPFindPasswordViewController.xib in Resources */,
-				1349B4101D4C4B8400DA46AA /* TPChangePasswordViewController.xib in Resources */,
+				1349B4B61D4CD86F00DA46AA /* TPLoginViewController.xib in Resources */,
 				1310032B1D4B4BC1004B125F /* LaunchScreen.storyboard in Resources */,
 				1349B3F71D4B5A0200DA46AA /* Info.plist in Resources */,
 				131003281D4B4BC1004B125F /* Assets.xcassets in Resources */,
-				1349B40B1D4C408900DA46AA /* TPPassedViewController.xib in Resources */,
+				1349B4B41D4CD86F00DA46AA /* TPChangePasswordViewController.xib in Resources */,
+				1349B4B81D4CD86F00DA46AA /* TPRegisterViewController.xib in Resources */,
+				1349B4B51D4CD86F00DA46AA /* TPFindPasswordViewController.xib in Resources */,
+				1349B4B71D4CD86F00DA46AA /* TPPassedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,20 +279,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131003361D4B4C96004B125F /* TPLoginViewController.m in Sources */,
+				1349B4B01D4CD86F00DA46AA /* TPPassedViewController.m in Sources */,
 				1349B3F51D4B5A0200DA46AA /* FMDatabaseQueue.m in Sources */,
-				1349B40F1D4C4B8400DA46AA /* TPChangePasswordViewController.m in Sources */,
-				1349B4011D4B99FF00DA46AA /* TPUserinfo.m in Sources */,
-				1349B3E21D4B55CC00DA46AA /* TPRegisterViewController.m in Sources */,
 				131003201D4B4BC1004B125F /* AppDelegate.m in Sources */,
 				1349B3F21D4B5A0200DA46AA /* FMDatabase.m in Sources */,
 				1349B3F41D4B5A0200DA46AA /* FMDatabasePool.m in Sources */,
+				1349B4AF1D4CD86F00DA46AA /* TPLoginViewController.m in Sources */,
 				1349B3F61D4B5A0200DA46AA /* FMResultSet.m in Sources */,
-				1349B40A1D4C408900DA46AA /* TPPassedViewController.m in Sources */,
-				1349B4051D4C401200DA46AA /* TPFindPasswordViewController.m in Sources */,
+				1349B4B21D4CD86F00DA46AA /* TPDataBaseHelper.m in Sources */,
 				1310031D1D4B4BC1004B125F /* main.m in Sources */,
-				1349B3FE1D4B961F00DA46AA /* TPDataBaseHelper.m in Sources */,
+				1349B4AD1D4CD86F00DA46AA /* TPChangePasswordViewController.m in Sources */,
+				1349B4B11D4CD86F00DA46AA /* TPRegisterViewController.m in Sources */,
 				1349B3F31D4B5A0200DA46AA /* FMDatabaseAdditions.m in Sources */,
+				1349B4B31D4CD86F00DA46AA /* TPUserinfo.m in Sources */,
+				1349B4AE1D4CD86F00DA46AA /* TPFindPasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
