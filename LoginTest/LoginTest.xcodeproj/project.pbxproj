@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1310031D1D4B4BC1004B125F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1310031C1D4B4BC1004B125F /* main.m */; };
+		131003201D4B4BC1004B125F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1310031F1D4B4BC1004B125F /* AppDelegate.m */; };
+		131003281D4B4BC1004B125F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131003271D4B4BC1004B125F /* Assets.xcassets */; };
+		1310032B1D4B4BC1004B125F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131003291D4B4BC1004B125F /* LaunchScreen.storyboard */; };
+		131003361D4B4C96004B125F /* TPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131003341D4B4C96004B125F /* TPLoginViewController.m */; };
+		131003371D4B4C96004B125F /* TPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 131003351D4B4C96004B125F /* TPLoginViewController.xib */; };
+		1349B3E21D4B55CC00DA46AA /* TPRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3E01D4B55CC00DA46AA /* TPRegisterViewController.m */; };
+		1349B3E31D4B55CC00DA46AA /* TPRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B3E11D4B55CC00DA46AA /* TPRegisterViewController.xib */; };
+		1349B3F21D4B5A0200DA46AA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3E71D4B5A0200DA46AA /* FMDatabase.m */; };
+		1349B3F31D4B5A0200DA46AA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3E91D4B5A0200DA46AA /* FMDatabaseAdditions.m */; };
+		1349B3F41D4B5A0200DA46AA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3EB1D4B5A0200DA46AA /* FMDatabasePool.m */; };
+		1349B3F51D4B5A0200DA46AA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3ED1D4B5A0200DA46AA /* FMDatabaseQueue.m */; };
+		1349B3F61D4B5A0200DA46AA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3F01D4B5A0200DA46AA /* FMResultSet.m */; };
+		1349B3F71D4B5A0200DA46AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1349B3F11D4B5A0200DA46AA /* Info.plist */; };
+		1349B3F91D4B928300DA46AA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349B3F81D4B928300DA46AA /* libsqlite3.tbd */; };
+		1349B3FE1D4B961F00DA46AA /* TPDataBaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B3FD1D4B961F00DA46AA /* TPDataBaseHelper.m */; };
+		1349B4011D4B99FF00DA46AA /* TPUserinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4001D4B99FF00DA46AA /* TPUserinfo.m */; };
+		1349B4051D4C401200DA46AA /* TPFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4031D4C401200DA46AA /* TPFindPasswordViewController.m */; };
+		1349B4061D4C401200DA46AA /* TPFindPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4041D4C401200DA46AA /* TPFindPasswordViewController.xib */; };
+		1349B40A1D4C408900DA46AA /* TPPassedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B4081D4C408900DA46AA /* TPPassedViewController.m */; };
+		1349B40B1D4C408900DA46AA /* TPPassedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B4091D4C408900DA46AA /* TPPassedViewController.xib */; };
+		1349B40F1D4C4B8400DA46AA /* TPChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349B40D1D4C4B8400DA46AA /* TPChangePasswordViewController.m */; };
+		1349B4101D4C4B8400DA46AA /* TPChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349B40E1D4C4B8400DA46AA /* TPChangePasswordViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131003181D4B4BC1004B125F /* LoginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1310031C1D4B4BC1004B125F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1310031E1D4B4BC1004B125F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1310031F1D4B4BC1004B125F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		131003271D4B4BC1004B125F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1310032A1D4B4BC1004B125F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1310032C1D4B4BC1004B125F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131003331D4B4C96004B125F /* TPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLoginViewController.h; sourceTree = "<group>"; };
+		131003341D4B4C96004B125F /* TPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLoginViewController.m; sourceTree = "<group>"; };
+		131003351D4B4C96004B125F /* TPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPLoginViewController.xib; sourceTree = "<group>"; };
+		1349B3DF1D4B55CC00DA46AA /* TPRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRegisterViewController.h; sourceTree = "<group>"; };
+		1349B3E01D4B55CC00DA46AA /* TPRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegisterViewController.m; sourceTree = "<group>"; };
+		1349B3E11D4B55CC00DA46AA /* TPRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPRegisterViewController.xib; sourceTree = "<group>"; };
+		1349B3E61D4B5A0200DA46AA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1349B3E71D4B5A0200DA46AA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		1349B3E81D4B5A0200DA46AA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1349B3E91D4B5A0200DA46AA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		1349B3EA1D4B5A0200DA46AA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1349B3EB1D4B5A0200DA46AA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		1349B3EC1D4B5A0200DA46AA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1349B3ED1D4B5A0200DA46AA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1349B3EE1D4B5A0200DA46AA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		1349B3EF1D4B5A0200DA46AA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		1349B3F01D4B5A0200DA46AA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		1349B3F11D4B5A0200DA46AA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1349B3F81D4B928300DA46AA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1349B3FC1D4B961F00DA46AA /* TPDataBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDataBaseHelper.h; sourceTree = "<group>"; };
+		1349B3FD1D4B961F00DA46AA /* TPDataBaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDataBaseHelper.m; sourceTree = "<group>"; };
+		1349B3FF1D4B99FF00DA46AA /* TPUserinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPUserinfo.h; sourceTree = "<group>"; };
+		1349B4001D4B99FF00DA46AA /* TPUserinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPUserinfo.m; sourceTree = "<group>"; };
+		1349B4021D4C401200DA46AA /* TPFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFindPasswordViewController.h; sourceTree = "<group>"; };
+		1349B4031D4C401200DA46AA /* TPFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFindPasswordViewController.m; sourceTree = "<group>"; };
+		1349B4041D4C401200DA46AA /* TPFindPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPFindPasswordViewController.xib; sourceTree = "<group>"; };
+		1349B4071D4C408900DA46AA /* TPPassedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPassedViewController.h; sourceTree = "<group>"; };
+		1349B4081D4C408900DA46AA /* TPPassedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPassedViewController.m; sourceTree = "<group>"; };
+		1349B4091D4C408900DA46AA /* TPPassedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPPassedViewController.xib; sourceTree = "<group>"; };
+		1349B40C1D4C4B8400DA46AA /* TPChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPChangePasswordViewController.h; sourceTree = "<group>"; };
+		1349B40D1D4C4B8400DA46AA /* TPChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPChangePasswordViewController.m; sourceTree = "<group>"; };
+		1349B40E1D4C4B8400DA46AA /* TPChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPChangePasswordViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131003151D4B4BC1004B125F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1349B3F91D4B928300DA46AA /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1310030F1D4B4BC1004B125F = {
+			isa = PBXGroup;
+			children = (
+				1310031A1D4B4BC1004B125F /* LoginTest */,
+				131003191D4B4BC1004B125F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		131003191D4B4BC1004B125F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131003181D4B4BC1004B125F /* LoginTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1310031A1D4B4BC1004B125F /* LoginTest */ = {
+			isa = PBXGroup;
+			children = (
+				1349B3FB1D4B95FB00DA46AA /* Helper */,
+				1349B3FA1D4B931D00DA46AA /* Frameworks */,
+				1349B3E51D4B5A0200DA46AA /* fmdb */,
+				131003391D4B4D6B004B125F /* Model */,
+				131003381D4B4CA7004B125F /* View */,
+				131003321D4B4C6B004B125F /* Controller */,
+				1310031E1D4B4BC1004B125F /* AppDelegate.h */,
+				1310031F1D4B4BC1004B125F /* AppDelegate.m */,
+				131003271D4B4BC1004B125F /* Assets.xcassets */,
+				131003291D4B4BC1004B125F /* LaunchScreen.storyboard */,
+				1310032C1D4B4BC1004B125F /* Info.plist */,
+				1310031B1D4B4BC1004B125F /* Supporting Files */,
+			);
+			path = LoginTest;
+			sourceTree = "<group>";
+		};
+		1310031B1D4B4BC1004B125F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1310031C1D4B4BC1004B125F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		131003321D4B4C6B004B125F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				131003331D4B4C96004B125F /* TPLoginViewController.h */,
+				131003341D4B4C96004B125F /* TPLoginViewController.m */,
+				1349B3DF1D4B55CC00DA46AA /* TPRegisterViewController.h */,
+				1349B3E01D4B55CC00DA46AA /* TPRegisterViewController.m */,
+				1349B4021D4C401200DA46AA /* TPFindPasswordViewController.h */,
+				1349B4031D4C401200DA46AA /* TPFindPasswordViewController.m */,
+				1349B4071D4C408900DA46AA /* TPPassedViewController.h */,
+				1349B4081D4C408900DA46AA /* TPPassedViewController.m */,
+				1349B40C1D4C4B8400DA46AA /* TPChangePasswordViewController.h */,
+				1349B40D1D4C4B8400DA46AA /* TPChangePasswordViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		131003381D4B4CA7004B125F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				131003351D4B4C96004B125F /* TPLoginViewController.xib */,
+				1349B3E11D4B55CC00DA46AA /* TPRegisterViewController.xib */,
+				1349B4041D4C401200DA46AA /* TPFindPasswordViewController.xib */,
+				1349B4091D4C408900DA46AA /* TPPassedViewController.xib */,
+				1349B40E1D4C4B8400DA46AA /* TPChangePasswordViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		131003391D4B4D6B004B125F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1349B3FF1D4B99FF00DA46AA /* TPUserinfo.h */,
+				1349B4001D4B99FF00DA46AA /* TPUserinfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1349B3E51D4B5A0200DA46AA /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				1349B3E61D4B5A0200DA46AA /* FMDatabase.h */,
+				1349B3E71D4B5A0200DA46AA /* FMDatabase.m */,
+				1349B3E81D4B5A0200DA46AA /* FMDatabaseAdditions.h */,
+				1349B3E91D4B5A0200DA46AA /* FMDatabaseAdditions.m */,
+				1349B3EA1D4B5A0200DA46AA /* FMDatabasePool.h */,
+				1349B3EB1D4B5A0200DA46AA /* FMDatabasePool.m */,
+				1349B3EC1D4B5A0200DA46AA /* FMDatabaseQueue.h */,
+				1349B3ED1D4B5A0200DA46AA /* FMDatabaseQueue.m */,
+				1349B3EE1D4B5A0200DA46AA /* FMDB.h */,
+				1349B3EF1D4B5A0200DA46AA /* FMResultSet.h */,
+				1349B3F01D4B5A0200DA46AA /* FMResultSet.m */,
+				1349B3F11D4B5A0200DA46AA /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		1349B3FA1D4B931D00DA46AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1349B3F81D4B928300DA46AA /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1349B3FB1D4B95FB00DA46AA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1349B3FC1D4B961F00DA46AA /* TPDataBaseHelper.h */,
+				1349B3FD1D4B961F00DA46AA /* TPDataBaseHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131003171D4B4BC1004B125F /* LoginTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1310032F1D4B4BC1004B125F /* Build configuration list for PBXNativeTarget "LoginTest" */;
+			buildPhases = (
+				131003141D4B4BC1004B125F /* Sources */,
+				131003151D4B4BC1004B125F /* Frameworks */,
+				131003161D4B4BC1004B125F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginTest;
+			productName = LoginTest;
+			productReference = 131003181D4B4BC1004B125F /* LoginTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131003101D4B4BC1004B125F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TP;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "蓝山工作室";
+				TargetAttributes = {
+					131003171D4B4BC1004B125F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 131003131D4B4BC1004B125F /* Build configuration list for PBXProject "LoginTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1310030F1D4B4BC1004B125F;
+			productRefGroup = 131003191D4B4BC1004B125F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131003171D4B4BC1004B125F /* LoginTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		131003161D4B4BC1004B125F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131003371D4B4C96004B125F /* TPLoginViewController.xib in Resources */,
+				1349B3E31D4B55CC00DA46AA /* TPRegisterViewController.xib in Resources */,
+				1349B4061D4C401200DA46AA /* TPFindPasswordViewController.xib in Resources */,
+				1349B4101D4C4B8400DA46AA /* TPChangePasswordViewController.xib in Resources */,
+				1310032B1D4B4BC1004B125F /* LaunchScreen.storyboard in Resources */,
+				1349B3F71D4B5A0200DA46AA /* Info.plist in Resources */,
+				131003281D4B4BC1004B125F /* Assets.xcassets in Resources */,
+				1349B40B1D4C408900DA46AA /* TPPassedViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131003141D4B4BC1004B125F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131003361D4B4C96004B125F /* TPLoginViewController.m in Sources */,
+				1349B3F51D4B5A0200DA46AA /* FMDatabaseQueue.m in Sources */,
+				1349B40F1D4C4B8400DA46AA /* TPChangePasswordViewController.m in Sources */,
+				1349B4011D4B99FF00DA46AA /* TPUserinfo.m in Sources */,
+				1349B3E21D4B55CC00DA46AA /* TPRegisterViewController.m in Sources */,
+				131003201D4B4BC1004B125F /* AppDelegate.m in Sources */,
+				1349B3F21D4B5A0200DA46AA /* FMDatabase.m in Sources */,
+				1349B3F41D4B5A0200DA46AA /* FMDatabasePool.m in Sources */,
+				1349B3F61D4B5A0200DA46AA /* FMResultSet.m in Sources */,
+				1349B40A1D4C408900DA46AA /* TPPassedViewController.m in Sources */,
+				1349B4051D4C401200DA46AA /* TPFindPasswordViewController.m in Sources */,
+				1310031D1D4B4BC1004B125F /* main.m in Sources */,
+				1349B3FE1D4B961F00DA46AA /* TPDataBaseHelper.m in Sources */,
+				1349B3F31D4B5A0200DA46AA /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		131003291D4B4BC1004B125F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1310032A1D4B4BC1004B125F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1310032D1D4B4BC1004B125F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1310032E1D4B4BC1004B125F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131003301D4B4BC1004B125F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanpei.LoginTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		131003311D4B4BC1004B125F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanpei.LoginTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131003131D4B4BC1004B125F /* Build configuration list for PBXProject "LoginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1310032D1D4B4BC1004B125F /* Debug */,
+				1310032E1D4B4BC1004B125F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1310032F1D4B4BC1004B125F /* Build configuration list for PBXNativeTarget "LoginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131003301D4B4BC1004B125F /* Debug */,
+				131003311D4B4BC1004B125F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131003101D4B4BC1004B125F /* Project object */;
+}
